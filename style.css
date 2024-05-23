@@ -1,0 +1,193 @@
+/* this is for google fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/* this is a universal selector for all text on the html document */
+* {
+    font-family: "DM Sans", sans-serif;
+}
+
+
+/* this is for custom fonts */
+/* @font-face {
+    font-family: "myhtml-font";
+    src: url("./fonts/MonumentExtended-Ultrabold.otf");
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.overall-hero-section {
+    background-image: url(./images/Image\ \(6\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-color:#2F1893;
+}
+
+.topnavigation {
+    display: flex;
+    margin-left: 500px;
+    padding-top: 70px;
+    gap:25px;
+    font-size: 12px;
+    color:white;
+}
+
+.forgotcodediv {
+    text-align: center;
+    padding-top: 100px;
+    color:#fff;
+}
+
+.forgotcodediv p {
+    font-size: 10px;
+}
+
+.createbotton {
+    text-align: center;
+    padding-top: 70px;
+}
+
+button {
+    background-color:#482BE7;
+    border-radius: 20px;
+}
+
+.createbotton button {
+    color:white;
+    font-size: 10px;
+    padding:8px;
+}
+
+.paraone {
+    color:rgb(98, 96, 96)
+}
+
+.logonav {
+    font-size: 10px;
+    margin-top: 12px;
+}
+
+.content8-section {
+    text-align: center;
+    color: #1E0E62;
+    font-size: 12px;
+    margin: 120px;
+}
+
+.feature-head {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.feature-two, .feature-copy {
+    display: flex;
+    margin-left: 300px;
+    font-size: 12px;
+    gap:30px;
+    padding-top: 70px;
+}
+
+.feature-copy {
+    margin-bottom: 100px;
+    padding-top: 25px;
+}
+
+.feature-two {
+    padding-bottom: 5px;
+}
+
+.feature-head h1 {
+    color:#1E0E62;
+}
+
+.feature-two h4, .feature-copy h4 {
+    color:#1E0E62;
+}
+
+.feature-two p, .feature-copy p {
+    color:#15143966
+}
+
+.botton-bux {
+    display: flex;
+    gap:50px;
+    margin-left: 300px;
+    margin-top: 80px;
+}
+
+.headpara {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 150px;
+}
+
+.form8-section {
+    background-image: url(./images/Background\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-color:#2F1893;
+}
+
+.headpara h1 {
+    color:#fff
+}
+
+.headpara p {
+    color: #f2f0f0;
+    font-size: 10px;
+}
+
+.form-control1 {
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    padding: 10px 25px;
+    border: 1px solid rgb(112, 105, 105);
+    border-radius: 20px;
+    color: #fff;
+}
+
+.form-control2 {
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    padding: 10px 25px;
+    border: 1px solid rgb(112, 105, 105);
+    border-radius: 20px;
+    color: #fff;
+    width: 300px;
+}
+
+.signbot {
+    border: 0;
+    background: #25DAC5;
+    padding: 10px 30px;
+}
+
+.parany {
+    color:#FFFFFF;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.site-nav {
+    display: flex;
+    gap:30px;
+    margin-left: 390px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color:#1E0E62;
+    font-size: 20px;
+}
+
+.parafoot {
+    text-align: center;
+    margin-bottom: 100px;
+    color:#15143966;
+}
